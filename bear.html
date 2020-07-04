@@ -3,17 +3,22 @@
 
 <head>
   <title>Brown Bears</title>
+  <link rel="stylesheet" href="bearstyle.css">
 </head>
 
 <body>
-  <a href="./index.html">Brown Bear</a>
-  <a href="./aboutme.html">About Me</a>
-  <h1>The Brown Bear</h1>
-  <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#habitat">Habitat</a></li>
-    <li><a href="#media">Media</a></li>
-  </ul>
+ <header>
+    <div id="header">
+      <a href="./index.html">Brown Bear</a>
+      <a href="./">About Me</a>
+    </div >
+    <h1>The Brown Bear</h1>
+    <nav>
+      <a href="#introduction">Introduction</a>
+      <a href="#habitat">Habitat</a>
+      <a href="#media">Media</a>
+    </nav>
+ </header>
   <div id="introduction">
     <h2>About Brown Bears</h2>
     <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
@@ -47,7 +52,7 @@
   </div>
   <section>
     <form action="/data.html" method="POST"></form>
-    <h1>Do u want to know about Panda Bears too?</h1>
+    <h3>Do u want to know about Panda Bears too?</h3>
     <label for="email-id">Email Id : </label>
     <input type="text" name="email-id" id="email-id">
     <br>
@@ -59,6 +64,8 @@
     <span>Blaah!</span>
     <input type="range" id="review" name="review">
     <span>Yaay!</span>
+    <br>
+    <button>Submit</button>
 </section>
 </body>
 
