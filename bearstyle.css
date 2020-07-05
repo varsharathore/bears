@@ -1,6 +1,10 @@
 body{
     background-color: rgb(217, 248, 168);
+    background-image: linear-gradient(75deg, rgb(128, 235, 41) , rgb(224, 223, 114));
     margin: 10px;
+    border: solid rgb(7, 134, 18);
+    border-radius: 20px;
+    padding: 10px;
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -10,13 +14,6 @@ h1{
     text-align: center;
     clear: both;
 }
-nav{
-    display: block;
-    margin: 10px;
-    font-size: 20px;
-    float: right;
-    clear: both;
-}
 h2{
     clear: both;
 }
@@ -24,24 +21,35 @@ section{
     clear: both;
 }
 a{
-    display: inline-block;
-    clear: both;
-    margin-right: 15px;
+    text-decoration: none;
 }
-a:hover{
+nav a{
+    display: inline-block;
+    width: 30%;
+    font-size: 19px;
+    text-align: center;
+
+}
+nav a:hover{
     background-color: rgb(94, 179, 94);
     color: white;
+    border-radius: 10px;
 }
-a:focus{
-    background-color: tomato;
-    color: white;
+nav a:focus{
+    background-color: rgb(243, 255, 71);
+    color: rgba(214, 33, 33, 0.986);
 }
 div{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 19px;
-    width: 33%;
+    width: 380px;
     float: left;
+    margin-right: 30px;
+    padding: 10px;
     clear: right;
+}
+header>div{
+    float: right;
 }
 h2{
     color: rgb(0, 77, 0);
